@@ -1,1 +1,1 @@
-# simple-login-android-java
+# simple-static-login-android-java
