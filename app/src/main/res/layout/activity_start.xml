@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/nextStep"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/hello"
+        android:layout_centerHorizontal="true"
+        android:text="Click get started to the next step" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextStep"
+        android:text="Get Started"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="200dp"
+        android:padding="10dp"
+        android:background="@color/blueSoft"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
